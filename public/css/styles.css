@@ -27,33 +27,23 @@ select{
      font-size: 20px;
  }
 
+ .centering {
+     height: 100vh;
+     width: 100vw;
+    display: flex;
+    justify-content: center;
+}
 
 
 #fbbutton{
 
-    position: fixed;
-        left:39.5%;
-        top:66%;
+    position: relative;
+    right: 30px;
+    margin: 0;
+    top:66%;
 }
 
-@media only screen and (max-width: 800px) {
-    #fbbutton{
-    
-        position: fixed;
-        left:33%;
-        top:66%;
-    }
 
-    #createMessage{
-        position: relative;
-        top:9px;
-        left: 10px;
-        right: 10px;
-    
-    }
-
-
-}
 
 h3{
     /* color: blue; */
